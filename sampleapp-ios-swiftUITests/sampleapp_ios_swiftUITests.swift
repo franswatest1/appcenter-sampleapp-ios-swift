@@ -18,7 +18,7 @@ class sampleapp_ios_swiftUITests: XCTestCase {
     func testSwipeUntilCrashesPage() {
         // Assert that the crash button exists
         let window = app.windows.element(boundBy: 0)
-        let fatalErrorButtonQuery = app.buttons.matching(identifier: "fatalErrorButton")
+        let fatalErrorButtonQuery = app.buttons.matching(identifier: "fatalErrorButton1")
         XCTAssert(window.frame.contains(fatalErrorButtonQuery.accessibilityFrame))
     }
 }
