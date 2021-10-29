@@ -24,6 +24,6 @@ class sampleapp_ios_swiftUITests: XCTestCase {
     
     func testFailingCase() {
         let num = 5
-        CXTAssert(num, 6,"num value is not 6")
+        XCTAssert(num, 6,"num value is not 6")
     }
 }
